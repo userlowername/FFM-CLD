@@ -29,5 +29,5 @@ bash scripts/<stud_model>_student/run_stage1.sh <gpu_id> <dataset_id> <dataset_p
 
 Here, ```<stud_model>``` refers to the student architecture, which can be one of the following: rn50, vitb, vits, deits. ```<gpu_id>``` is the GPU ID of the machine. ```<dataset_id>``` is the dataset . ```<dataset_path>``` is the parent folder of all the datasets given with the "/" included. (Eg: /my_folder/datasets/) 
 
-## checkpoint
+
 our checkpoint can be downloaded at https://pan.baidu.com/s/1H20B5pRrtFRtzG-_YFg0Uw
