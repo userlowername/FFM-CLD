@@ -20,23 +20,14 @@ pip install -r requirements.txt
 
 `train_all.py` script conducts multiple leave-one-out cross-validations for all target domain.
 
-1. To run the first stage (Align)
 
 ```
 bash scripts/<stud_model>_student/run_stage1.sh <gpu_id> <dataset_id> <dataset_path>
 ```
 
-2. To run the second stage (Distill)
-
-- Rename the stage 1 folder by removing the additional info as shown in the below example:
-```
-232316_11-22-29_vitb-stage1-swad-ViT-B --> vitb-stage1-swad-ViT-B
-```
-- Run the following command:
-```
-bash scripts/<stud_model>_student/run_stage2.sh <gpu_id> <dataset_id> <dataset_path>
 ```
 
 Here, ```<stud_model>``` refers to the student architecture, which can be one of the following: rn50, vitb, vits, deits. ```<gpu_id>``` is the GPU ID of the machine. ```<dataset_id>``` is the dataset . ```<dataset_path>``` is the parent folder of all the datasets given with the "/" included. (Eg: /my_folder/datasets/) 
 
-
+## checkpoint
+our checkpoint can be downloaded at https://pan.baidu.com/s/1H20B5pRrtFRtzG-_YFg0Uw
